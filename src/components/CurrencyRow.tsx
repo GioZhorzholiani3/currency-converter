@@ -1,7 +1,9 @@
+import classes from "./CurrencyRow.module.css";
+
 const CurrencyRow = () => {
   return (
-    <div>
-      <input type="number" />
+    <div className="wrapper">
+      <input type="number" className={classes.input} />
       <select>
         <option value="hi">hi</option>
       </select>
